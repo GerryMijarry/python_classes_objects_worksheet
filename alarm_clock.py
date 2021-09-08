@@ -12,7 +12,7 @@ class AlarmClock:
     def turn_on_off(self, requested_state):
         self.on_off = requested_state
 
-        print("The alarm is set to " + str(self.on_off))
+        print("The alarm is set to " + str(self.on_off) + ". Dont forget to turn it on!")
 
     def set_alarm(self, new_time):
         self.alarm_time = new_time
