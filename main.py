@@ -18,7 +18,7 @@ ac1 = AlarmClock(current_time)
 ac1.set_alarm("00:06:30")
 ac1.turn_on_off(True)
 
-ac1.change_time("00:11:59")
+ac1.change_time("11:11:59")
 
 
 
